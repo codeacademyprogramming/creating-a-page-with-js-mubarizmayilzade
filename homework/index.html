@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="header-div">
+                <div class="header-div-left">
+                    <div class="logo-div">
+                        <a href="#"><i class="fab fa-gitlab gitlab-logo"><span class="gitlab-text">GitLab</span></i></a>
+                    </div>
+                    <div class="next-div">
+                        <span><a href="">Next</a></span>
+                    </div>
+                    <div class="burger-menu">
+                        <a href="#"><i class="fas fa-bars menu-icon" id="menu-btn"><span class="menu-text">Menu</span></i></a>
+                    </div>
+                    <div class="sub-menu">
+                        <a href="#" class="a-block"><i class="fa fa-file sub-menu-icon"></i><span>Projects</span></a>
+                        <a href="#" class="a-block"><i class="far fa-shapes sub-menu-icon"></i><span>Groups</span></a>
+                        <a href="#" class="a-block"><i class="far fa-cut sub-menu-icon"></i><span>Snippets</span></a>
+                        <a href="#" class="a-block a-block-bottom"><i class="far fa-question-circle sub-menu-icon"></i><span>Help</span></a>
+                    </div>
+                    <div class="sub-search">
+                        <a href="#" class="a-block-search"><span>What`s new</span></a>
+                        <a href="#" class="a-block-search"><span>Help</span></a>
+                        <a href="#" class="a-block-search"><span>Support</span></a>
+                        <a href="#" class="a-block-search"><span>Community forum</span></a>
+                        <a href="#" class="a-block-search"><span>Keyboard shortcuts</span></a>
+                        <a href="#" class="a-block-search a-block-search-bottom"><span>Submit feedback</span></a>
+                        <a href="#" class="a-block-search"><span>Contribute to GitLab</span></a>
+                    </div>
+                </div>
+                <div class="header-div-right">
+                    <i class="fa fa-search search-icon"></i>
+                    <div class="search-div"><input type="search" name="search-header" class="search-header" placeholder="Search GitLab"></div>
+                    <div class="header-dropdown" id="btn2"><a href="#" ><i class="far fa-question-circle header-question-logo" ><span class="circle"></span></i><i class="fa fa-angle-down down-arrow"></i></a></div>
+                    <div class="register"><button type="button" class="register-button">Sign In / Register</button></div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <aside>
+            <div class="sidebar">
+                <div class="sidebar-top">
+                    <div class="logo-content">
+                        <div class="logo">
+                            <i class="fab fa-gitlab"></i>
+                            <div class="logo-name">GitLab.com</div>
+                        </div>
+                    </div>
+                    <ul class="nav-list">
+                        <li>
+                            <a href="#">
+                                <i class="far fa-shapes"></i>
+                                <span class="links-name1">Group Information</span>
+                            </a>
+                            <span class="tooltip tool1">
+                                <span id="main-span">Group Information</span>
+                                <span class="span-top span-left span-right">Activt</span>
+                                <span class="span-left span-right">Labels</span>
+                                <span class="span-left span-bottom span-right">Members</span>
+                        </span>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="far fa-book"></i>
+                                <span class="links-name2">Epics</span>
+                            </a>
+                            <span class="tooltip tool2">
+                                <span id="main-span">Epics</span>
+                                <span class="span-top span-left span-right">List</span>
+                                <span class="span-left span-right">Boards</span>
+                                <span class="span-left span-bottom span-right">Roadmap</span>
+                            </span>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="far fa-folder-open"></i>
+                                <span class="links-name3">Issues</span>
+                            </a>
+                            <span class="tooltip tool3">
+                                <span id="main-span">Issues</span>
+                                <span class="span-top span-left span-right">List</span>
+                                <span class="span-left span-right">Boards</span>
+                                <span class="span-left span-right">Milestones</span>
+                                <span class="span-left span-bottom span-right">Iterations</span>
+                            </span>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-wave-square"></i>
+                                <span class="links-name4">Merge Requests</span>
+                            </a>
+                            <span class="tooltip tool4">
+                                <span id="main-span">Merge Requests</span>
+                            </span>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-shield-alt"></i>
+                                <span class="links-name5">Security & Compliance</span>
+                            </a>
+                            <span class="tooltip tool5">
+                                <span id="main-span">Security & Compliance</span>
+                                <span class="span-top span-left span-right">Security Dashboard</span>
+                                <span class="span-left span-bottom span-right">Vulnerability Report</span>
+                            </span>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="far fa-box"></i>
+                                <span class="links-name6">Packages & Registries</span>
+                            </a>
+                            <span class="tooltip tool6">
+                                <span id="main-span">Packages & Registries</span>
+                                <span class="span-top span-left span-right">Package Registry</span>
+                                <span class="span-left span-bottom span-right">Dependency Proxy</span>
+                            </span>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="far fa-chart-bar"></i>
+                                <span class="links-name7">Analitics</span>
+                            </a>
+                            <span class="tooltip tool7">
+                                <span id="main-span">Analitics</span>
+                                <span class="span-top span-left span-right">Insights</span>
+                                <span class="span-left span-bottom span-right">Issue</span>
+                            </span>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="far fa-file"></i>
+                                <span class="links-name8">Wiki</span>
+                            </a>
+                            <span class="tooltip tool8">
+                                <span id="main-span">Wiki</span>
+                            </span>
+                        </li>
+                    </ul>
+                 </div>
+                 <div >
+                    <div class="collapse">
+                        <a href="#" class="sidebar-bottom" id="btn"><i class="fa fa-chevron-double-right right-icon"></i><i class="fa fa-chevron-double-left arrow-collapse"><span class="collapse-text">Collapse sidebar</span></i></a>
+                    </div>
+                 </div>
+            </div>
+        </aside>
+    </section>
+    <script src="./assets/css/js/main.js">
+
+    </script>
+</body>
+</html>
